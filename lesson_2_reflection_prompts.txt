@@ -1,3 +1,14 @@
+*Working directory ist das Verzeichnis in dem ich Arbeite
+*Staging area enthält die dateien aus dem working directory die ich verändert habe und für einen Commit markiert sind!
+*Ein commit ist das absenden der Dateien aus der Staging area.
+*Das Repository verwaltet die commits
+
+git diff vergleicht working directory mit staging area
+git diff --staged vergleicht staging area mit commit1
+git diff commit1 commit2 vergleich die beiden commits aus dem repository
+
+
+
 What happens when you initialize a repository? Why do you need to do it?
 
     git init startet ein leeres repository in dem ordner wo man sich befindet den Ordner selbst man "working directory"
@@ -10,6 +21,9 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	mann kann immer nur die Dateien aus dem working directory in die Staging area packen welche eine logische einheit bilden
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
